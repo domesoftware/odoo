@@ -906,7 +906,7 @@ class AccountChartTemplate(models.AbstractModel):
                 'name': _("Outstanding Payments"),
                 'prefix': bank_prefix,
                 'code_digits': code_digits,
-                'account_type': 'asset_current',
+                'account_type': 'liability_current',
                 'reconcile': True,
             },
         }
